@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+   
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h2>Depression Detector</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+	<div class="results">
+
+
+		
+	{% if prediction == 'Positive' %}
+	<h2 style="color:red;">Happy Browsing</h2>
+	{% elif prediction == 'Negative' %}
+	<h2 style="color:blue;">please visit nearest help</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
