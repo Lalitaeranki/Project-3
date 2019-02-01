@@ -19,7 +19,7 @@ Pandas,Python, Flask, MongoDB, BeautifulSoup,Plotly, HTML, CSS, Bootstrap, JavaS
 [Source](https://www.who.int/gho/mental_health/suicide_rates/en/)
 
 ## Project Flow
-- Scrape Tweets on menatal health, physical health,finances, family and Drug/Alcohol to create training dataset.
+- Scrape Tweets on mental health, physical health,finances, family and Drug/Alcohol to create training dataset.
 - Using NLPK Multinomial Naives Bayers classifier to classify and predict the user's text
 - Creating Flask application and converting the .csv files to MongoDB ,preparing server for Deployment in Heroku.
 - Designing the index page and ,charts ,form and machine learing pages using HTML, CSS ,JavaScript and Bootstrap.
